@@ -1,0 +1,255 @@
+﻿@charset "UTF-8";
+
+
+body{
+    margin: 0px; 
+	padding: 0px;
+    height:100%;
+   	background:url("phto/backsub3.jpg");
+}
+
+.snow {
+	position: absolute;
+	background: pink;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.8);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.8);
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.8);
+    z-index:1;
+
+}
+
+div#page{
+    margin:0 auto;
+    width: 800px;
+    height:auto;
+    background-image: url("phto/back.jpg");
+    box-shadow: 0px 0px 60px #666666;
+    z-index:3;
+}
+
+p.source{
+    clear:both;
+    border-top: 1px solid #AAAAAA;
+    padding:10px 0px 0px 20px;
+    margin:0 0 0px 0x;
+    width:780px;
+}
+
+section{
+    margin: 20px;
+    z-index:2;
+}
+
+section#co1{
+    width: 150px;
+    float: left;
+	padding:10px 0px 0px 0px;
+    margin:10px 0px 0px 0px;
+    z-index:2;
+}
+
+/*ドロップダウンメニュー*/
+ul.pulldown_menu_7 {
+list-style: none; /* 先頭記号を消す */
+text-align:left;
+position: relative; top: 0; right:40px;
+background-image:url("phto/menuita.jpg");
+}
+
+ul.pulldown_menu_7 li {
+width: 150px; /* リスト項目の幅 */
+cursor: pointer; /* カーソル */
+background-image:url("phto/menuita.jpg");
+}
+
+ul.pulldown_menu_7 ul {
+display: none; /* 通常は表示しない */
+list-style: none; /* 2段目の先頭記号を消す */
+padding-left: 0px; /* 2段目の左位置を1段目に揃える */
+background-image:url("phto/menuita.jpg");
+}
+
+section#co1 ul.pulldown_menu_7 li.menu_on > ul {
+display: block; /* 表示する */
+background-image:url("phto/menuita.jpg");
+}
+
+section#co1 ul.pulldown_menu_7 li.menu_off > ul {
+display: none; /* 表示しない */
+background-image:url("phto/menuita.jpg");
+}
+
+ul.pulldown_menu_7 a {
+color: black; /* 文字色 */
+font-family:"HGSMinchoE","ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", selif;
+display: block; /* ブロックレベルに */
+text-align: center; /* 文字を中央合わせに */
+padding: 10px 5px 5px 5px; /* 内部の余白 */
+font-size:17px;
+text-decoration: none; /* 下線を消す */
+outline: none; /* 選択時の点線枠線を消す */
+background:url("phto/menuita.png");
+height: 25px; /* 高さの調整 */
+width:140px;
+}
+
+ul.pulldown_menu_7 ul a {
+background-image:url("phto/submenu.jpg"); /* ２段目以降の背景画像 */
+font-size:14px;
+}
+
+ul.pulldown_menu_7 a:hover{/* マウスカーソルが乗っている状態 */
+
+color: blue; /* 文字色 */
+}
+
+ul.pulldown_menu_7 a:active {/* マウスがクリックされている状態 */
+background-image:url("phto/menuita.png");
+color: red; /* 文字色 */
+}
+
+
+
+section#co2 {
+     width: 580px;
+     float:right;
+     text-align:center;
+     padding:10px 0px 0px 0px;
+     margin:10px 0px 30px 0px;
+     border-left: 1px solid;
+}
+
+h1.title{
+    width: 550px;
+    padding:10px 0px 10px 10px;
+    margin:20px 10px 10px 10px;
+    font-size:32px;
+    font-family:"HGSMinchoE","ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", selif;
+}
+
+h2.title{
+    width: 520px;
+    padding:10px 10px 10px 10px;
+    margin:75px 10px 0px 20px;
+    font-family:HGSMinchoE,"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", selif;
+    border-bottom: 1px solid;
+}
+
+h2.kanzi{
+    padding:5px 0px 0px 0px;
+    font-family:HGSMinchoE,"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", selif;
+}
+
+h4.expl{
+    width:520px;
+    padding:10px 10px 20px 10px;
+    margin:10px 10px 0px 20px;
+    text-align:left;
+    line-height: 150%;
+    font-size:15px;
+}
+
+p.phto{
+    width:75%;
+    height:75%;
+    margin:10px 10px 0px 20px;
+    padding:0px 0px 0px 10px;
+    text-align:left;
+}
+
+p.video{
+}
+
+.dammy{
+	clear:both;
+    padding:10px 0px 0px 20px;
+    margin:0 0;
+    width:780px;
+   
+}
+
+div#yumi{
+    width:520px;
+    margin:0 auto;
+}
+
+img.yumi{
+    width:100%;
+    padding:0;
+}
+img.turu{
+    width:200px;
+    padding:0;
+    vertical-align: bottom;
+}
+
+div#turu table{
+    width:520px;
+    margin:auto;
+    border:solid 1px black;
+}
+
+div#turu td.name{
+    width:30px;
+    border:solid 1px black;
+    background-color:lightgray;
+    font-family:HGSMinchoE,"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", selif;
+}
+
+div#turu td.phto{
+    width:200px;
+    border:solid 1px black;
+    vertical-align: bottom;
+}
+
+div#turu td.expl{
+    width:290px;
+    border:solid 1px black;
+    padding:5px;
+    text-align:left;
+    background-color:lightgrey;
+    font-size:15px;
+}
+
+table.wayou{
+    width:520px;
+    margin:auto;
+}
+
+table.wayou th{
+    margin:auto;
+    font-size:larger;
+}
+
+table.wayou td.phto{
+    margin:auto;
+    width:200px;
+    height:200px;
+}
+
+
+table.wayou td.name{
+    font-size:25px;
+}
+
+.ggmap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+ 
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 75%;
+height: 75%;
+margin-left:30px;
+}
